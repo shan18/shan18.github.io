@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: What do I do
 ---
 
 My name is Shantanu Acharya. I am a Python Developer, my interests lie in Machine Learning and Backend Development. I am passionate for coding, love photography, like listening to EDM and pop music, a foodie, interested in latest technology trends, AI and gaming. I watch a lot of TV series, Anime and sci-fi movies. Die-hard fan of Batman and Star Wars.  
@@ -17,6 +17,6 @@ Currently, I am pursuing a Bachelor's degree in **Computer Science and Engineeri
 
 What else do you need?
 
-### My history
+### My hobbies
 
-To be honest, I'm having some trouble remembering right now, so why don't you just [see for yourself](https://www.instagram.com/shan_1.0/?hl=en) and it will answer **all** your questions.
+To be honest, I'm having some trouble remembering right now, so why don't you just [see for yourself](https://www.instagram.com/shan_1.0/?hl=en).
