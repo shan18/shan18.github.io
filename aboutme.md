@@ -4,11 +4,32 @@ title: About me
 subtitle: What do I do
 ---
 
-My name is Shantanu Acharya. I am a Python Developer, my interests lie in Machine Learning and Backend Development. I am passionate for coding, love photography, like listening to EDM and pop music, a foodie, interested in latest technology trends, AI and gaming. I watch a lot of TV series, Anime and sci-fi movies. Die-hard fan of Batman and Star Wars.  
+<p class="about-text">
+<span class="fa fa-briefcase about-icon"></span>
+  Hi, my name is <strong>Shantanu Acharya</strong>, I am a Software Developer. I hail from Lucknow, Uttar Pradesh, India.
+</p>
 
-Currently, I am pursuing a Bachelor's degree in **Computer Science and Engineering** at *National Institute of Technology, Mizoram*.  
+<p class="about-text">
+<span class="fa fa-graduation-cap about-icon"></span>
+I am currently pursuing my Bachelor of Technology degree in <strong>Computer Science & Engineering (CSE) </strong>from <i>National Institute of Technology Mizoram</i> in Aizawl, Mizoram, India.
+</p>
 
-### Quotes I believe in:
+<p class="about-text">
+<span class="fa fa-code about-icon"></span>
+I am a programmer, python Developer and my interests lie in Machine Learning, Deep Learning and Backend Development.
+</p>
+
+<p class="about-text">
+<span class="fa fa-heart about-icon"></span>
+I am passionate for coding, love photography, like listening to EDM and pop music, a foodie, interested in latest technology trends, AI and gaming. I watch a lot of TV series, Anime and sci-fi movies. Die-hard fan of Batman and Star Wars.
+</p>
+
+<p class="about-text">
+<span class="fa fa-envelope about-icon"></span>
+Let’s connect if you want to collab and create something awesome in the world of open source techology. Follow the social media links given below or drop a mail <a target="_blank" href="mailto:contact@anudit.in">here</a>.
+</p>
+
+### Quotes that inspire me:
 - > "Work while they are sleeping. Learn while they are partying. Live like they are dreaming."
 - > "When something is important enough, you do it even if the odds are not in your favor."  
 \- *Elon Musk*
