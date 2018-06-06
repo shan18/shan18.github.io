@@ -2,10 +2,13 @@
 layout: post
 title: Deploying a django app - Part 1
 subtitle: Using AWS for storing static files
+image: /img/deploy_django_p1.png
 tags: [programming, software, open source, web apps]
 ---
 
 This is a two part post which will guide you to host your own django app in a production environment using **Amazon Web Services (AWS)** for *storing static files* and **Heroku** for *hosting the project*.
+
+![Deploy Django part 1](/img/deploy_django_p1_img.png)
 
 This part will cover the storing of **static files** in **AWS S3 Bucket**.
 
