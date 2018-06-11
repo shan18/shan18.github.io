@@ -83,7 +83,7 @@ This part will cover the storing of **static files** in **AWS S3 Bucket**.
 ### 1. Install requirements
 **boto** and **boto3** are python bindings for AWS. **django-storages** are used by django to send static files to AWS.  
 ```
-pip install boto boto3 django-storages
+$ pip install boto boto3 django-storages
 ```
 
 ### 2. Update settings and migrate
@@ -97,7 +97,7 @@ INSTALLED_APPS = [
 ```
 - Run migrations  
 ```
-python manage.py migrate
+$ python manage.py migrate
 ```
 
 ### 3. Set up the AWS module
@@ -114,43 +114,41 @@ $ touch conf.py
 ```
 
 - In `utils.py` add the following
+    ```
+    from storages.backends.s3boto3 import S3Boto3Storage
 
-```
-from storages.backends.s3boto3 import S3Boto3Storage
-
-StaticRootS3BotoStorage = lambda: S3Boto3Storage(location='static')
-MediaRootS3BotoStorage  = lambda: S3Boto3Storage(location='media')
-```
+    StaticRootS3BotoStorage = lambda: S3Boto3Storage(location='static')
+    MediaRootS3BotoStorage  = lambda: S3Boto3Storage(location='media')
+    ```
 
 - Fetch the `Access Key Id` and `Secret Access Key` from `credentials.csv` downloaded earlier. Then in `conf.py` add the following
+    ```
+    import datetime
+    AWS_ACCESS_KEY_ID = "<your_access_key_id>"
+    AWS_SECRET_ACCESS_KEY = "<your_secret_access_key>"
+    AWS_FILE_EXPIRE = 200
+    AWS_PRELOAD_METADATA = True
+    AWS_QUERYSTRING_AUTH = True
 
-```
-import datetime
-AWS_ACCESS_KEY_ID = "<your_access_key_id>"
-AWS_SECRET_ACCESS_KEY = "<your_secret_access_key>"
-AWS_FILE_EXPIRE = 200
-AWS_PRELOAD_METADATA = True
-AWS_QUERYSTRING_AUTH = True
+    DEFAULT_FILE_STORAGE = '<your-project>.aws.utils.MediaRootS3BotoStorage'
+    STATICFILES_STORAGE = '<your-project>.aws.utils.StaticRootS3BotoStorage'
+    AWS_STORAGE_BUCKET_NAME = '<your_bucket_name>'
+    S3DIRECT_REGION = 'us-west-2'
+    S3_URL = '//%s.s3.amazonaws.com/' % AWS_STORAGE_BUCKET_NAME
+    MEDIA_URL = '//%s.s3.amazonaws.com/media/' % AWS_STORAGE_BUCKET_NAME
+    MEDIA_ROOT = MEDIA_URL
+    STATIC_URL = S3_URL + 'static/'
+    ADMIN_MEDIA_PREFIX = STATIC_URL + 'admin/'
 
-DEFAULT_FILE_STORAGE = '<your-project>.aws.utils.MediaRootS3BotoStorage'
-STATICFILES_STORAGE = '<your-project>.aws.utils.StaticRootS3BotoStorage'
-AWS_STORAGE_BUCKET_NAME = '<your_bucket_name>'
-S3DIRECT_REGION = 'us-west-2'
-S3_URL = '//%s.s3.amazonaws.com/' % AWS_STORAGE_BUCKET_NAME
-MEDIA_URL = '//%s.s3.amazonaws.com/media/' % AWS_STORAGE_BUCKET_NAME
-MEDIA_ROOT = MEDIA_URL
-STATIC_URL = S3_URL + 'static/'
-ADMIN_MEDIA_PREFIX = STATIC_URL + 'admin/'
+    two_months = datetime.timedelta(days=61)
+    date_two_months_later = datetime.date.today() + two_months
+    expires = date_two_months_later.strftime("%A, %d %B %Y 20:00:00 GMT")
 
-two_months = datetime.timedelta(days=61)
-date_two_months_later = datetime.date.today() + two_months
-expires = date_two_months_later.strftime("%A, %d %B %Y 20:00:00 GMT")
-
-AWS_HEADERS = { 
-    'Expires': expires,
-    'Cache-Control': 'max-age=%d' % (int(two_months.total_seconds()), ),
-}
-```
+    AWS_HEADERS = { 
+        'Expires': expires,
+        'Cache-Control': 'max-age=%d' % (int(two_months.total_seconds()), ),
+    }
+    ```
 
 ### 4. Update settings.py
 ```
@@ -159,7 +157,7 @@ from <your-project>.aws.conf import *
 
 ### 5. Push the static files to S3 Bucket
 ```
-python manage.py collectstatic
+$ python manage.py collectstatic
 ```
 
 <br/>

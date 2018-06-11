@@ -124,7 +124,7 @@ All the files that are created and the shell commands given below should be exec
 
 3. Enable Heroku to Handle Let's Encrypt Certificate
     ```
-    heroku certs:auto:enable
+    $ heroku certs:auto:enable
     ```
 
 <br/>
