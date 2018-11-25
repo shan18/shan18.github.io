@@ -21,3 +21,5 @@ In academic institutions, almost everyone speaks in English. However, in the res
 ![Daad Wise 4](/img/daad_wise_4.jpg)
 
 I would like to conclude by saying that, this internship was one of the best experiences I have had till now, both academically and personally. I learned a lot of new things, got motivated to do research and gained a lot of wonderful experiences from my two-month stay in Germany.
+
+![Daad Wise 5](/img/daad_wise_5.jpg)
