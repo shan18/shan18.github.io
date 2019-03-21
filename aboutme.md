@@ -16,7 +16,7 @@ I am currently pursuing my Bachelor of Technology degree in <strong>Computer Sci
 
 <p class="about-text">
 <span class="fa fa-code about-icon"></span>
-I am a programmer, python Developer and my interests lie in Machine Learning, Deep Learning and Backend Development.
+I am a programmer, python developer and my interests lie in Machine Learning, Deep Learning and Full-Stack Development.
 </p>
 
 <p class="about-text">
@@ -26,18 +26,19 @@ I am passionate for coding, love photography, like listening to EDM and pop musi
 
 <p class="about-text">
 <span class="fa fa-envelope about-icon"></span>
-Let’s connect if you want to collab and create something awesome in the world of open source techology. Follow the social media links given below or drop a mail <a target="_blank" href="mailto:contact@anudit.in">here</a>.
+Let’s connect if you want to collab and create something awesome in the world of open source techology. Follow the social media links given below or drop a mail <a target="_blank" href="mailto:thegeek.004@gmail.com">here</a>.
 </p>
 
 ### Quotes that inspire me:
+
 - > "Work while they are sleeping. Learn while they are partying. Live like they are dreaming."
 - > "When something is important enough, you do it even if the odds are not in your favor."  
-\- *Elon Musk*
+  > \- _Elon Musk_
 - > "You can't connect the dots looking forward; you can only connect them looking backwards. So you have to trust that the dots will somehow connect in your future."  
-\- *Steve Jobs*
+  > \- _Steve Jobs_
 
 What else do you need?
 
 ### My hobbies
 
-To be honest, I'm having some trouble remembering right now, so why don't you just [see for yourself](https://www.instagram.com/shan_1.0/?hl=en).
+To be honest, I just have two hobbies: programming and photography. It's diffcult to describe the second hobby, so why don't you just [see for yourself](https://www.instagram.com/shan_1.0/?hl=en).

@@ -8,21 +8,34 @@ This is a collection of my personal projects that I work on in my free time. Hop
 
 ---
 
+## Image Captioning
+
+An automatic image caption generation system built using Deep Learning.
+
+- Developed a multi-label classifier which identifies all the object categories present in an image in the MSCOCO 2017 dataset.
+- Applied the concept of transfer learning on a pre-trained VGG19 Net to create the multi-label classifier.
+- Developed the caption generator model using a merge model architecture.
+- Generated the captions during inference using Beam Search.
+- _Tools_: Python, Tensoflow, Numpy, OpenCV
+- _Services_: Google Cloud
+- _GitHub URL_: [Image-Captioning](https://github.com/shan18/Image-Captioning)
+
+<br/>
+
 ## Stock Bridge
 
 A real-time online stock market simulator built using Django.  
 **Website URL**: [https://stock-bridge.herokuapp.com](https://stock-bridge.herokuapp.com/)
 
 - Built the entire user-company transaction system from scratch.
-- Made the fluctuations in stock prices completely automatic so that the fluctuations depend entirely on the number of transactions made during a fixed period of time.
-- Built the backend entirely on Django. Used signals, custom model managers, and custom querysets extensively to keep most of the code logic within the models and to make the communication between the linked models effective.
-- Used the concept of coefficient of variation as a tiebreaker for the leaderboard.
-- Created a Bank model for the users to issue loan from and deduct interest from their loan amount accordingly.
-- Created a notification panel called news which the users used to make wise transactions.
-- Added the functionality to make the users see their previous transactions and corresponding net worth.
-- *Tools*: Python, Django, Django REST Framework, Bootstrap v4, chart.js
-- *Services*: Amazon Web Services, Heroku, sendgrid
-- *GitHub URL*: [Stock-Bridge](https://github.com/morphosis-nitmz/Stock-Bridge)
+- Developed an automated system for fluctuating stock prices.
+- Extensive usage of django signals, model managers and custom querysets.
+- Devised a tiebreaker mechanism using the concept of coefficient of variation.
+- Created a Bank System from which users can issue loans.
+- Added the functionality of automatic intrest deduction from the users who have pending loan amounts.
+- _Tools_: Python, Django, Django REST Framework, Bootstrap v4, chart.js
+- _Services_: Amazon Web Services, Heroku, sendgrid
+- _GitHub URL_: [Stock-Bridge](https://github.com/morphosis-nitmz/Stock-Bridge)
 
 <br/>
 
@@ -32,14 +45,11 @@ An online judge platform built using Django.
 **Website URL**: [https://code-warrior-morphosis.herokuapp.com](https://code-warrior-morphosis.herokuapp.com/)
 
 - Built the entire compilation, execution and submission evaluation module from scratch.
-- Made the platform to support following languages: C, C++, Python 2, Python 3
-- Built the backend entirely on Django. Used signals, custom model managers, and custom querysets extensively to keep most of the code logic within the models and to make the communication between the linked models effective.
-- Used user submission execution time as a tiebreaker for the leaderboard.
-- Used AWS S3 Service to store user submissions.
-- Added the functionality to make the users see their previous submissions.
-- *Tools*: Python, Django, Bootstrap
-- *Services*: Amazon Web Services, sendgrid
-- *GitHub URL*: [Code-Warrior](https://github.com/morphosis-nitmz/Code-Warrior)
+- Designed the platform to support languages: C, C++, and Python.
+- Constructed a tiebreaker mechanism which uses user submission execution time for ranking users with the same score in the leaderboard.
+- _Tools_: Python, Django, Bootstrap
+- _Services_: Amazon Web Services, sendgrid
+- _GitHub URL_: [Code-Warrior](https://github.com/morphosis-nitmz/Code-Warrior)
 
 <br/>
 
@@ -53,9 +63,9 @@ An E-commerce website built using Django.
 - In case of a server error, setup sendgrid to send a detailed error report to website admins.
 - Built the functionality to sell digital items by storing them in AWS S3 Storage.
 - Render the order summary as a PDF and send it to the user after a successful transaction.
-- *Tools*: Python, Django, Bootstrap, jQuery, Ajax, jsrender, chart.js
-- *Services*: stripe, mailchimp, Amazon Web Services, heroku, sendgrid
-- *GitHub URL*: [Kart](https://github.com/shan18/Kart)
+- _Tools_: Python, Django, Bootstrap, jQuery, Ajax, jsrender, chart.js
+- _Services_: stripe, mailchimp, Amazon Web Services, heroku, sendgrid
+- _GitHub URL_: [Kart](https://github.com/shan18/Kart)
 
 <br/>
 
@@ -65,8 +75,8 @@ Ranking the reviews on Amazon according to their helpfulness score.
 
 - The problem was modeled as a regression problem. The performance was evaluated by using the coefficient of determination and rank correlation.
 - Predictions were made based on various categories of features of the review text, and other metadata associated with the review, with the purpose of generating a rank for a given list of reviews.
-- *Tools*: Python, Numpy, Pandas, textblob, scikit-learn
-- *GitHub URL*: [Autoranking-Amazon-Reviews](https://github.com/shan18/Autoranking-Amazon-Reviews)
+- _Tools_: Python, Numpy, Pandas, textblob, scikit-learn
+- _GitHub URL_: [Autoranking-Amazon-Reviews](https://github.com/shan18/Autoranking-Amazon-Reviews)
 
 <br/>
 
@@ -78,7 +88,7 @@ Android App for the annual technical fest of NIT Mizoram.
 - Contains all the information of various events to be conducted during the technical fest.
 - Live notification updates.
 - Contains a game called Scooby Dooby Doo, where participants have to answer various logical questions. The app gives live leaderboard updates.
-- *Tools*: Java, Android Studio, Firebase
-- *GitHub URL*: [Morphosis-2k17-Android](https://github.com/morphosis-nitmz/Morphosis-2k17-Android)
+- _Tools_: Java, Android Studio, Firebase
+- _GitHub URL_: [Morphosis-2k17-Android](https://github.com/morphosis-nitmz/Morphosis-2k17-Android)
 
 ---
