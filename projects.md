@@ -8,17 +8,17 @@ This is a collection of my personal projects that I work on in my free time. Hop
 
 ---
 
-## Image Captioning
+## Topic Based Image Captioning
 
 An automatic image caption generation system built using Deep Learning.
 
-- Developed a multi-label classifier which identifies all the object categories present in an image in the MSCOCO 2017 dataset.
-- Applied the concept of transfer learning on a pre-trained VGG19 Net to create the multi-label classifier.
-- Developed the caption generator model using a merge model architecture.
-- Generated the captions during inference using Beam Search.
-- _Tools_: Python, Tensoflow, Numpy, OpenCV
+- Developed a multi-label image classifier using transfer learning on pre-trained VGG19 Net.
+- Fed the results of the multi-label classifier as well as the image features extracted from VGG19 to the language model.
+- Developed the model using merge model architecture.
+- Applied Beam Search to generate captions during inference.
+- _Tools_: Python, Keras-Tensoflow, MSCOCO-2017 Dataset.
 - _Services_: Google Cloud
-- _GitHub URL_: [Image-Captioning](https://github.com/shan18/Image-Captioning)
+- _GitHub URL_: [Image-Captioning](https://github.com/shan18/Topic-Based-Image-Captioning)
 
 <br/>
 
