@@ -12,13 +12,12 @@ This is a collection of my personal projects that I work on in my free time. Hop
 
 An automatic image caption generation system built using Deep Learning.
 
-- Developed a multi-label image classifier using transfer learning on pre-trained VGG19 Net.
-- Fed the results of the multi-label classifier as well as the image features extracted from VGG19 to the language model.
-- Developed the model using merge model architecture.
-- Applied Beam Search to generate captions during inference.
-- _Tools_: Python, Keras-Tensoflow, MSCOCO-2017 Dataset.
+- Developed a model which uses Latent Dirichlet Allocation (LDA) to extract topics from the image captions.
+- Developed a caption generation model using LSTMs which takes the image features from a pre-trained InceptionV3 network and the topics from the LDA-model as input.
+- Made the caption generation model using merge model architecture.
+- _Tools_: Python, Tensoflow-Keras, NLTK, OpenCV-Python, MSCOCO-2017 Dataset.
 - _Services_: Google Cloud
-- _GitHub URL_: [Image-Captioning](https://github.com/shan18/Topic-Based-Image-Captioning)
+- _GitHub URL_: [Topic-Based-Image-Captioning](https://github.com/shan18/Topic-Based-Image-Captioning)
 
 <br/>
 
@@ -29,12 +28,11 @@ A real-time online stock market simulator built using Django.
 
 - Built the entire user-company transaction system from scratch.
 - Developed an automated system for fluctuating stock prices.
+- Developed a scheduler mechanism for automating user transactions.
 - Extensive usage of django signals, model managers and custom querysets.
-- Devised a tiebreaker mechanism using the concept of coefficient of variation.
-- Created a Bank System from which users can issue loans.
-- Added the functionality of automatic intrest deduction from the users who have pending loan amounts.
+- Developed a Bank Model to issue loans and deduct interests from users.
 - _Tools_: Python, Django, Django REST Framework, Bootstrap v4, chart.js
-- _Services_: Amazon Web Services, Heroku, sendgrid
+- _Services_: Heroku, sendgrid
 - _GitHub URL_: [Stock-Bridge](https://github.com/morphosis-nitmz/Stock-Bridge)
 
 <br/>
@@ -42,13 +40,13 @@ A real-time online stock market simulator built using Django.
 ## Code Warrior
 
 An online judge platform built using Django.  
-**Website URL**: [https://code-warrior-morphosis.herokuapp.com](https://code-warrior-morphosis.herokuapp.com/)
+**Website URL**: [https://nitmz.pythonanywhere.com/](https://nitmz.pythonanywhere.com/)
 
 - Built the entire compilation, execution and submission evaluation module from scratch.
 - Designed the platform to support languages: C, C++, and Python.
 - Constructed a tiebreaker mechanism which uses user submission execution time for ranking users with the same score in the leaderboard.
 - _Tools_: Python, Django, Bootstrap
-- _Services_: Amazon Web Services, sendgrid
+- _Services_: Amazon Web Services, PythonAnywhere, sendgrid.
 - _GitHub URL_: [Code-Warrior](https://github.com/morphosis-nitmz/Code-Warrior)
 
 <br/>
