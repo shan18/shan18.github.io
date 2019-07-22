@@ -33,7 +33,7 @@ A real-time online stock market simulator built using Django.
 - Developed a Bank Model to issue loans and deduct interests from users.
 - _Tools_: Python, Django, Django REST Framework, Bootstrap v4, chart.js
 - _Services_: Heroku, sendgrid
-- _GitHub URL_: [Stock-Bridge](https://github.com/morphosis-nitmz/Stock-Bridge)
+- _GitHub URL_: [Stock-Bridge](https://github.com/shan18/Stock-Bridge)
 
 <br/>
 
@@ -47,7 +47,7 @@ An online judge platform built using Django.
 - Constructed a tiebreaker mechanism which uses user submission execution time for ranking users with the same score in the leaderboard.
 - _Tools_: Python, Django, Bootstrap
 - _Services_: Amazon Web Services, PythonAnywhere, sendgrid.
-- _GitHub URL_: [Code-Warrior](https://github.com/morphosis-nitmz/Code-Warrior)
+- _GitHub URL_: [Code-Warrior](https://github.com/shan18/Code-Warrior)
 
 <br/>
 
