@@ -6,17 +6,17 @@ subtitle: What do I do
 
 <p class="about-text">
 <span class="fa fa-briefcase about-icon"></span>
-  Hi, my name is <strong>Shantanu Acharya</strong>, I am a Software Developer. I hail from Lucknow, Uttar Pradesh, India.
+  Hi, my name is <strong>Shantanu Acharya</strong>, I am an Artificial General Intelligence Software Engineer. I hail from Lucknow, Uttar Pradesh, India.
 </p>
 
 <p class="about-text">
 <span class="fa fa-graduation-cap about-icon"></span>
-I am currently pursuing my Bachelor of Technology degree in <strong>Computer Science & Engineering (CSE) </strong>from <i>National Institute of Technology Mizoram</i> in Aizawl, Mizoram, India.
+I have obtained my Bachelor of Technology degree in <strong>Computer Science & Engineering (CSE) </strong>from <i>National Institute of Technology Mizoram</i> in Aizawl, Mizoram, India.
 </p>
 
 <p class="about-text">
 <span class="fa fa-code about-icon"></span>
-I am a programmer, python developer and my interests lie in Machine Learning, Deep Learning and Full-Stack Development.
+I am a programmer, python developer and my interests lie in Natural Language Processing, Computer Vision and Deep Learning.
 </p>
 
 <p class="about-text">
@@ -26,7 +26,7 @@ I am passionate for coding, love photography, like listening to EDM and pop musi
 
 <p class="about-text">
 <span class="fa fa-envelope about-icon"></span>
-Let’s connect if you want to collab and create something awesome in the world of open source techology. Follow the social media links given below or drop a mail <a target="_blank" href="mailto:thegeek.004@gmail.com">here</a>.
+Let’s connect if you want to collab and create something awesome in the world of open source software. Follow the social media links given below or drop a mail <a target="_blank" href="mailto:thegeek.004@gmail.com">here</a>.
 </p>
 
 ### Quotes that inspire me:
