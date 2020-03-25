@@ -8,6 +8,18 @@ This is a collection of my personal projects that I work on in my free time. Hop
 
 ---
 
+## TensorNet
+
+A high-level deep learning library built on top of PyTorch.
+
+- The library contains some advanced concepts like GradCAM and LR Finder into the package so that they can be used via a simple function call.
+- Extensive use of code modularization and OOP has been done with proper docstrings for each function in order to maintain a clean and understandable codebase.
+- _Tools_: Python, PyTorch.
+- _PyPI URL_: [PyPI](https://pypi.org/project/torch-tensornet/)
+- _GitHub URL_: [TensorNet](https://github.com/shan18/TensorNet)
+
+<br/>
+
 ## Topic Based Image Captioning
 
 An automatic image caption generation system built using Deep Learning.
