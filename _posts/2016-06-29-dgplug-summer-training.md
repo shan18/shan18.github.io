@@ -2,7 +2,7 @@
 layout: post
 title: Introduction to Open Source
 subtitle: dgplug Summer Training
-image: /img/dgplug.jpg
+image: /img/dgplug_summer_training/logo.jpg
 tags: [programming, software, open source]
 ---
 
@@ -26,6 +26,6 @@ One fascinating thing about this session was that they were using a bot named �
 
 On the first day, we were taught basic communication guidelines on IRC and mailing lists. Whenever we had any questions, we were supposed to type ‘!’ and when told, then to ask the questions.
 
-The topic of the sessions then pivoted towards python programming. All the lessons taught were right from the basics, we were given some challenging programming questions at the end of each session which used to cover all the topics that were taught till date. Then sometimes some sessions on open sources technologies like git, ansible, shell scripting etc. were held. We also used to have some guest lecture sessions where various people who are now pioneers in the open source community came and shared their stories of how then began their journey into the world of open source software. The best part about it was when Kushal invited *Guido Van Rossum*, the creator of *python programming language* as a speaker in one of the guest sessions. Everyone was totally psyched. The class had the maximum attendance that day.
+The topic of the sessions then pivoted towards python programming. All the lessons taught were right from the basics, we were given some challenging programming questions at the end of each session which used to cover all the topics that were taught till date. Then sometimes some sessions on open sources technologies like git, ansible, shell scripting etc. were held. We also used to have some guest lecture sessions where various people who are now pioneers in the open source community came and shared their stories of how then began their journey into the world of open source software. The best part about it was when Kushal invited _Guido Van Rossum_, the creator of _python programming language_ as a speaker in one of the guest sessions. Everyone was totally psyched. The class had the maximum attendance that day.
 
 This training met more than my expectations. Earlier, I was skeptical that how can a session be conducted on IRC but Kushal and Sayan conducted the session in a wonderful way which creates no confusion and it’s easy to understand for everyone. I learned a lot from this training and it was a wonderful experience for me. I would recommend almost everyone who wants to begin his journey into the open source community to definitely sign up for this training.
