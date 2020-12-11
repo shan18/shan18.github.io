@@ -344,3 +344,5 @@ $ sudo service nginx status
 Now you can access your app via a browser at **http://\<your-public-ip-address\>**
 
 <br/>
+
+P.S. A large portion of this blog post was referenced from [this article](https://www.freecodecamp.org/news/django-uwsgi-nginx-postgresql-setup-on-aws-ec2-ubuntu16-04-with-python-3-6-6c58698ae9d3/).
