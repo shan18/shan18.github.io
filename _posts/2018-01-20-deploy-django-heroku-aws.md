@@ -8,7 +8,7 @@ tags: [programming, software, open source, web apps]
 
 This is post will guide you to host your own django app in a production environment using **Amazon Web Services (AWS)** for _storing static files_ and **Heroku** for _hosting the project_.
 
-![Deploy Django part 1](/img/deploy_django_heroku_aws/header.png)
+![Django Heroku AWS logo](/img/deploy_django_heroku_aws/header.png)
 
 # AWS Setup
 
@@ -47,37 +47,35 @@ AWS will be used to host the static files of the project.
 - Click on `Attach Existing Policies Directly` and select `Create Policy`.
 - Go to the `JSON` tab and paste the policy given below. Change all `<your_bucket_name>` to the name of your bucket in S3 (set above). Do not change version date.
 
-```
+```json
 {
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Effect": "Allow",
-            "Action": [
-                "s3:ListAllMyBuckets"
-            ],
-            "Resource": "arn:aws:s3:::*"
-        },
-        {
-            "Effect": "Allow",
-            "Action": [
-                "s3:ListBucket",
-                "s3:GetBucketLocation",
-                "s3:ListBucketMultipartUploads",
-                "s3:ListBucketVersions"
-            ],
-            "Resource": "arn:aws:s3:::<your_bucket_name>"
-        },
-        {
-            "Effect": "Allow",
-            "Action": [
-                "s3:*Object*",
-                "s3:ListMultipartUploadParts",
-                "s3:AbortMultipartUpload"
-            ],
-            "Resource": "arn:aws:s3:::<your_bucket_name>/*"
-        }
-    ]
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": ["s3:ListAllMyBuckets"],
+      "Resource": "arn:aws:s3:::*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "s3:ListBucket",
+        "s3:GetBucketLocation",
+        "s3:ListBucketMultipartUploads",
+        "s3:ListBucketVersions"
+      ],
+      "Resource": "arn:aws:s3:::<your_bucket_name>"
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "s3:*Object*",
+        "s3:ListMultipartUploadParts",
+        "s3:AbortMultipartUpload"
+      ],
+      "Resource": "arn:aws:s3:::<your_bucket_name>/*"
+    }
+  ]
 }
 ```
 
@@ -90,7 +88,7 @@ AWS will be used to host the static files of the project.
 
 **boto** and **boto3** are python bindings for AWS. **django-storages** are used by django to send static files to AWS.
 
-```
+```bash
 $ pip install boto boto3 django-storages
 ```
 
@@ -98,7 +96,7 @@ $ pip install boto boto3 django-storages
 
 - Add the app `storages` to the `INSTALLED_APPS` in `settings.py`
 
-```
+```python
 INSTALLED_APPS = [
     ...
     'storages',
