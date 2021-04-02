@@ -8,75 +8,94 @@ This is a collection of my personal projects that I work on in my free time. Hop
 
 ---
 
+## Flash
+
+<a href="https://shan18.github.io/Flash" target="_blank"><img src="https://img.shields.io/badge/Website-9cf"></a>
+<a href="https://github.com/shan18/Flash" target="_blank"><img src="https://img.shields.io/badge/GitHub-blue"></a>
+
+An end-to-end Deep Learning platform that allows users to create, train, and deploy their own neural network models in a matter of minutes without writing a single line of code.
+
+The platform supports two types of tasks:
+
+1. **Image Classification**  
+   Classify images from your own dataset by using them to train a ResNet-34 or MobileNet v2 model. Training happens via transfer learning where models available will be pre-trained on the ImageNet dataset.
+
+2. **Sentiment Analysis**  
+   Predict sentiment from sentences by training a LSTM or GRU based sequential model on your own dataset. The models will be trained from scratch.
+
+**Tools Used**: Python, PyTorch, JavaScript, ReactJS, Redux, AWS (Lambda, EC2, S3)
+
+<br/>
+
 ## TensorNet
+
+<a href="https://pypi.org/project/torch-tensornet/" target="_blank"><img src="https://img.shields.io/badge/PyPI-9cf"></a>
+<a href="https://github.com/shan18/TensorNet" target="_blank"><img src="https://img.shields.io/badge/GitHub-blue"></a>
 
 A high-level deep learning library built on top of PyTorch to solve computer vision problems.
 
-- The library contains some advanced concepts like GradCAM and LR Finder into the package so that they can be used via a simple function call.
-- Extensive use of code modularization and OOP has been done with proper docstrings for each function in order to maintain a clean and understandable codebase.
-- _Tools_: Python, PyTorch.
-- _PyPI URL_: [PyPI](https://pypi.org/project/torch-tensornet/)
-- _GitHub URL_: [TensorNet](https://github.com/shan18/TensorNet)
+**Tools Used**: Python, PyTorch
 
 <br/>
 
 ## Topic Based Image Captioning
 
+<a href="https://github.com/shan18/Topic-Based-Image-Captioning" target="_blank"><img src="https://img.shields.io/badge/GitHub-blue"></a>
+
 An automatic image caption generation system built using Deep Learning.
 
-- Developed a novel image captioning model using CNNs and LSTMs.
+- Devised a novel image captioning model using CNNs and LSTMs trained on MSCOCO-2017 Dataset.
 - Created a system where LSTMs were given additional information (topics) extracted from image captions using Latent Dirichlet Allocation (LDA).
-- _Tools_: Python, Tensoflow-Keras, NLTK, OpenCV-Python, MSCOCO-2017 Dataset.
-- _GitHub URL_: [Topic-Based-Image-Captioning](https://github.com/shan18/Topic-Based-Image-Captioning)
+
+**Tools Used**: Python, Tensoflow, NLTK, OpenCV
 
 <br/>
 
 ## Stock Bridge
 
-A real-time online stock market simulator built using Django.  
-**Website URL**: [https://stock-bridge.herokuapp.com](https://stock-bridge.herokuapp.com/)
+<a href="https://stock-bridge.herokuapp.com" target="_blank"><img src="https://img.shields.io/badge/Website-9cf"></a>
+<a href="https://github.com/shan18/Stock-Bridge" target="_blank"><img src="https://img.shields.io/badge/GitHub-blue"></a>
 
-- Loaded the platform with real-world stock market features such as taking loans from bank, scheduling future transactions e.t.c.
-- Extensive usage of django signals, model managers and custom querysets.
-- _Tools_: Python, Django, Django REST Framework, Bootstrap v4, chart.js
-- _Services_: Heroku, sendgrid
-- _GitHub URL_: [Stock-Bridge](https://github.com/shan18/Stock-Bridge)
+An online stock market simulator enabling users to have an experience of trading in the real-world market.
+
+**Tools Used**: Python, Django, Django REST Framework, Bootstrap, Heroku, sendgrid
 
 <br/>
 
 ## Code Warrior
 
-An online judge platform built using Django.  
-**Website URL**: [https://nitmz.pythonanywhere.com/](https://nitmz.pythonanywhere.com/)
+<a href="https://nitmz.pythonanywhere.com/" target="_blank"><img src="https://img.shields.io/badge/Website-9cf"></a>
+<a href="https://github.com/shan18/Code-Warrior" target="_blank"><img src="https://img.shields.io/badge/GitHub-blue"></a>
 
-- Designed the platform to support languages: C, C++, and Python.
-- Constructed a tiebreaker mechanism which uses user submission execution time for ranking users with the same score in the leaderboard.
-- _Tools_: Python, Django, Bootstrap
-- _Services_: Amazon Web Services, PythonAnywhere, sendgrid.
-- _GitHub URL_: [Code-Warrior](https://github.com/shan18/Code-Warrior)
+An online judge platform with support for languages C, C++, and Python.
+
+**Tools Used**: Python, Django, Bootstrap, Amazon Web Services, PythonAnywhere, sendgrid.
 
 <br/>
 
 ## Kart
 
-An E-commerce website built using Django.  
-**Website URL**: [https://shan-kart.herokuapp.com](https://shan-kart.herokuapp.com/)
+<a href="https://shan-kart.herokuapp.com/" target="_blank"><img src="https://img.shields.io/badge/Website-9cf"></a>
+<a href="https://github.com/shan18/Kart" target="_blank"><img src="https://img.shields.io/badge/GitHub-blue"></a>
+
+An E-commerce website built using Django.
 
 - Built the backend on entirely on Django. Utilized jQuery to make the website asynchronous.
 - Developed features like checkout with online payment, send order receipt via email, selling digital items e.t.c.
-- _Tools_: Python, Django, Bootstrap, jQuery, Ajax, jsrender, chart.js
-- _Services_: stripe, mailchimp, Amazon Web Services, heroku, sendgrid
-- _GitHub URL_: [Kart](https://github.com/shan18/Kart)
+
+**Tools Used**: Python, Django, Bootstrap, jQuery, Ajax, jsrender, stripe, mailchimp, Amazon Web Services, heroku, sendgrid
 
 <br/>
 
 ## Autoranking Amazon Reviews
 
+<a href="https://github.com/shan18/Autoranking-Amazon-Reviews" target="_blank"><img src="https://img.shields.io/badge/GitHub-blue"></a>
+
 Ranking the reviews on Amazon according to their helpfulness score.
 
 - The problem was modeled as a regression problem. The performance was evaluated by using the coefficient of determination and rank correlation.
 - Predictions were made based on various categories of features of the review text, and other metadata associated with the review, with the purpose of generating a rank for a given list of reviews.
-- _Tools_: Python, Numpy, Pandas, textblob, scikit-learn
-- _GitHub URL_: [Autoranking-Amazon-Reviews](https://github.com/shan18/Autoranking-Amazon-Reviews)
+
+**Tools Used**: Python, Numpy, Pandas, textblob, scikit-learn
 
 ---

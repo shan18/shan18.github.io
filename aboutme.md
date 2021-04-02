@@ -6,7 +6,7 @@ subtitle: What do I do
 
 <p class="about-text">
 <span class="fa fa-briefcase about-icon"></span>
-  Hi, my name is <strong>Shantanu Acharya</strong>, I am an Artificial General Intelligence Software Engineer. I hail from Lucknow, Uttar Pradesh, India.
+  Hi, my name is <strong>Shantanu Acharya</strong>, I am an Artificial Intelligence Engineer. I hail from Lucknow, Uttar Pradesh, India.
 </p>
 
 <p class="about-text">
